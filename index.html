@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Arrival Extension | Productivity Hub</title>
+    <style>
+        :root {
+            --primary-blue: #4169E1;
+            --text-main: #24292e;
+            --text-muted: #586069;
+            --bg-light: #ffffff;
+            --section-bg: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: var(--bg-light);
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eaecef;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: var(--primary-blue);
+        }
+        .hero {
+            padding: 80px 10%;
+            text-align: center;
+            background: linear-gradient(180deg, #ffffff 0%, #f1f4f9 100%);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        .cta-button {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .features {
+            padding: 60px 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #eaecef;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-card h3 {
+            color: var(--primary-blue);
+            margin-top: 0;
+        }
+        footer {
+            margin-top: auto;
+            padding: 40px 10%;
+            background-color: #24292e;
+            color: #ffffff;
+            text-align: center;
+        }
+        .footer-links {
+            margin-bottom: 20px;
+        }
+        .footer-links a {
+            color: #adb5bd;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+        .copyright {
+            font-size: 0.8rem;
+            color: #6a737d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">ASL Arrival</a>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="privacy_policy.html">Privacy Policy</a>
+        <a href="mailto:admin@aslpreservationsolutions.com">Support</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Optimize Your Workflow</h1>
+    <p>The ASL Arrival Extension bridges the gap between high-volume product processing and organizational efficiency. Designed exclusively for ASL BPO agents.</p>
+    <a href="#" class="cta-button">Internal Access Only</a>
+</section>
+
+<section id="features" class="features">
+    <div class="feature-card">
+        <h3>Smart Scraping</h3>
+        <p>Automated extraction of Style IDs, Brands, and Categories directly from the Miinto platform.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Real-time Tracking</h3>
+        <p>Monitor your hourly efficiency and sync productivity logs directly to Google Sheets.</p>
+    </div>
+    <div class="feature-card">
+        <h3>QC Automation</h3>
+        <p>Built-in duplicate prevention and Quality Control filtering for smoother processing.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy_policy.html">Privacy Policy</a>
+        <a href="mailto:admin@aslpreservationsolutions.com">Contact Support</a>
+    </div>
+    <p class="copyright">&copy; 2026 ASL BPO. Proprietary Productivity Software. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
