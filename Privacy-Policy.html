@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ASL Arrival Extension</title>
+    <style>
+        /* Professional White Theme */
+        :root {
+            --primary-blue: #4169E1; /* Royal Blue */
+            --bg-light: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #e1e4e8;
+            --text-main: #24292e;
+            --text-muted: #586069;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 40px 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .policy-card {
+            max-width: 800px;
+            width: 100%;
+            background: var(--bg-light);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-blue);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--text-main);
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: #e7f0ff;
+            color: var(--primary-blue);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 1.25rem;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .highlight-panel {
+            background-color: var(--section-bg);
+            border-left: 4px solid var(--primary-blue);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .highlight-panel strong {
+            color: var(--text-main);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #959da5;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        .domain-tag {
+            background: #f1f8ff;
+            color: #0366d6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="policy-card">
+    <div class="header">
+        <h1>Privacy Policy</h1>
+        <div class="status-badge">Internal Proprietary Tool</div>
+    </div>
+
+    <p>The <strong>ASL Arrival Extension</strong> is a professional productivity tool developed exclusively for <strong>ASL BPO</strong>. It is designed to optimize product processing workflows on the Miinto platform by automating data extraction and performance tracking.</p>
+
+    <div class="highlight-panel">
+        <strong>Privacy-First & Zero PII Policy</strong>
+        This extension strictly avoids collecting personal information (PII). It does not access personal browsing history, emails, or files. All functions are built solely to make agent work more efficient and smooth.
+    </div>
+
+    <h2>1. Data Collection & Usage</h2>
+    <p>As a mechanical necessity for workflow automation, the extension interacts with following non-personal data:</p>
+    <ul>
+        <li><strong>Product Attributes:</strong> Style IDs, Brands, Colors, and Categories are extracted for processing.</li>
+        <li><strong>Activity Logs:</strong> Professional performance metrics (products processed per hour) are logged to internal Google Sheets.</li>
+        <li><strong>Quality Control:</strong> Current URLs are checked to prevent duplicate entries and ensure data accuracy.</li>
+    </ul>
+
+    <h2>2. Authentication & Security</h2>
+    <p>To maintain organizational integrity, the extension utilizes the user's Google Identity:</p>
+    <ul>
+        <li><strong>Access Control:</strong> Your Gmail address is used only to verify that you are an authorized employee of ASL BPO.</li>
+        <li><strong>Permissions:</strong> Internal system flags determine if user-specific UI controls (Agent vs. Trainee) should be active.</li>
+    </ul>
+
+    <h2>3. Local Storage Handling</h2>
+    <p>The extension uses local storage strictly for functional performance:</p>
+    <ul>
+        <li><strong>Efficiency Caching:</strong> Non-personal data is cached locally to reduce network lag and ensure a smooth experience.</li>
+        <li><strong>Auto-Purge:</strong> A strict <strong>7-day deletion policy</strong> is enforced to ensure no data remains in the browser long-term.</li>
+    </ul>
+
+    <h2>4. Host Scope</h2>
+    <p>The extension is restricted to operate only on <span class="domain-tag">https://arrival.miinto.net/*</span>. It remains completely inactive on all other websites to ensure your personal browsing is never affected.</p>
+
+    <h2>5. Contact</h2>
+    <p>For questions about this policy, contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:admin@aslpreservationsolutions.com">admin@aslpreservationsolutions.com</a></p>
+
+    <div class="footer">
+        &copy; 2026 ASL BPO. Proprietary and Confidential. <br>
+        This policy is designed for compliance and transparency regarding internal workflow tools.
+    </div>
+</div>
+
+</body>
+</html>
